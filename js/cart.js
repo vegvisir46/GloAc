@@ -4,8 +4,8 @@ window.addEventListener('DOMContentLoaded', () => {
 
     // _______________MODAL_______________
     const cartBtn = document.querySelector('.button-cart'),
-          cart = document.querySelector('#modal-cart'),
-          closeBtn = cart.querySelector('.modal-close');
+        cart = document.querySelector('#modal-cart'),
+        closeBtn = cart.querySelector('.modal-close');
 
     function openModal() {
         cart.style.display = 'flex';
@@ -33,7 +33,7 @@ window.addEventListener('DOMContentLoaded', () => {
 
     document.addEventListener('keydown', (e) => {
         if (e.code === "Escape" && (cart.style.display === 'flex')) {
-            closeModal ();
+            closeModal();
         }
     });
 
