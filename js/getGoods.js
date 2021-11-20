@@ -2,7 +2,7 @@
 
 window.addEventListener('DOMContentLoaded', () => {
 
-    fetch('/db/db.json');
+    // fetch('/db/db.json');
 
 
 
